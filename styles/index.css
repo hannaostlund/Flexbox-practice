@@ -75,8 +75,8 @@ body {
 
 .container-4 { 
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .card-group-4 {
@@ -89,14 +89,10 @@ body {
 }
 
 
-
 .card-group-5 {
   color: white;
-  text-align: center;
   display: flex;
   justify-content: center;
-  order: 2;
-  align-self: flex-end;
 }
 
 .card-group-5 .card-2 {
@@ -106,4 +102,8 @@ body {
 
 .card-group-6 {
   display: flex;
+}
+
+.big-card {
+  flex-grow: 2;
 }
